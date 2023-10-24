@@ -344,6 +344,12 @@ img {
     margin-bottom: var(--mb-3);
 }
 
+.section__subtitle__about {
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-3);
+}
+
 .section__title, .section__subtitle {
     text-align: center;
 }
@@ -616,10 +622,9 @@ img {
 }
 
 .about__description {
-    text-align: center; /* or 'initial' as per your design */
-    margin-bottom: var(--mb-2-5); /* Adjust the margin as needed */
-    max-width: 1200px; /* Adjust the value to control the width */
-    margin: 0 auto; /* Center the text horizontally, if desired */
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+    margin: 0 auto; 
 
 }
 
@@ -1271,7 +1276,10 @@ img {
         justify-self: center;
     }
 
-    .about__container,
+    .about__container{
+        grid-template-columns: 3fr 5fr;
+    }
+
     .skills_container,
     .portfolio__content,
     .project__container,
@@ -1361,12 +1369,14 @@ img {
             text-align: initial;
             max-width: 5000px; /* Adjust the value to control the width */
     margin: 0 auto; /* Center the text horizontally, if desired */
+    margin-top: 0px;
         }
         .about__info {
             justify-content: space-between;
         }
         .about__buttons {
             justify-content: initial;
+            margin-top: 20px;
         }
         .qualification__tabs {
             justify-content: center;
