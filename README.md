@@ -1,1 +1,1 @@
-My Responsive Portfolio Website Using Html, Css and JavaScript.
+My Responsive Portfolio Website Using HTML, CSS and JavaScript.
