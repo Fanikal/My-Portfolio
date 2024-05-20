@@ -338,6 +338,12 @@ img {
     font-size: var(--h1-font-size);
 }
 
+.subportfolio__title {
+    font-size: var(--h2-font-size);
+    text-align: center; 
+    
+}
+
 .section__subtitle {
     display: block;
     font-size: var(--small-font-size);
@@ -1060,6 +1066,7 @@ img {
 
 .contact__information {
     display: flex;
+    align-items: center;
     margin-bottom: var(--mb-2)
 }
 
